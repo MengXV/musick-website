@@ -6,7 +6,7 @@ export default function Header() {
     <div className='w-full mx-auto '>
       <div className=' container mx-auto  md:flex items-center justify-center lg:gap-x-40 md:gap-x-20  md:pt-24  '>
         <div className=' ' id='playlist-img'>
-          <img src='music.png' className='md:w-48 lg:w-52 xl:64 2xl:w-72' />
+          <img src='music.png' className='md:w-48 lg:w-52 xl:64 2xl:w-72' alt='music-playlist' />
         </div>
         <div className='flex-col justify-center flex '>
           <h1 className=' md:text-6xl lg:text-7xl 2xl:text-8xl text-white  text-center leading-tight tracking-wider'
