@@ -7,16 +7,16 @@ export default function MusickSection() {
                 <div className=''>
                 </div>
                 <div className='relative w-full' >
-                    <div className='md:h-[250px] lg:h-[320px] xl:h-[240px] 2xl:h-[240px] md:border absolute md:-left-12 md:-bottom-4 lg:-left-16 lg:-bottom-8  border-pink '></div>
+                    <div className='md:h-[320px] lg:h-[400px] xl:h-[320px] 2xl:h-[280px] md:border absolute md:-left-12 md:-bottom-4 lg:-left-16 lg:-bottom-8  border-pink '></div>
                     <div className='md:w-6 md:h-6 rounded-full bg-pink absolute md:-left-[58px] md:top-2 lg:-left-[75px] lg:top-1 xl:top-2'></div>
                     <div className='md:w-6 md:h-6 rounded-full bg-pink absolute md:-left-[58px] md:-bottom-8 lg:-left-[75px] lg:-bottom-12 xl:-bottom-14'></div>
                     <div>
                     <h1 data-aos="fade-up" data-aos-duration='1500' className='text-white text-3xl font-semibold px-6 md:px-0'>What is Musick?</h1>
-                    <p data-aos='fade-left' data-aos-duration='1500' className='text-pink mt-10 text-xl md:text-xl lg:text-2xl tracking-wider leading-normal px-6 md:px-0 lg:leading-relaxed'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                        fugiat nulla pariatur."</p>
+                    <p data-aos='fade-left' data-aos-duration='1500' className='text-pink mt-10 text-xl md:text-xl lg:text-2xl tracking-widest leading-normal px-6 md:px-0 lg:leading-relaxed'>
+                        Musick is actually a music community platform website where people can listen to the music according to their tastes of music genre.
+                        People also can make a discussion about with other people around the world.
+                        They will get different opinion from different people outside there. To make sure they get a very great experience, we have build this website
+                        as people can connect together while having fun with their favourite music in Musick.</p>
                         </div>
                 </div>
 

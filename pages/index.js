@@ -19,7 +19,7 @@ export default function Home() {
 
       
       <main className='bg-black/95 w-full mx-auto'>
-       <div className='w-full bg-metal bg-no-repeat  bg-cover bg-fixed'>
+       <div className='w-full bg-metal bg-no-repeat bg-center bg-cover md:bg-fixed'>
         <div className='bg-black/80  w-full mx-auto '>
           <Navbar/>
           <div className='hidden md:block'>
@@ -33,7 +33,7 @@ export default function Home() {
           <div className='shadow-2xl'>
             <MusickSection/>
           </div>
-          <div className='w-full bg-oneD bg-no-repeat  bg-cover bg-fixed'>
+          <div className='w-full bg-oneD bg-no-repeat  bg-cover bg-center md:bg-fixed'>
             <div className='w-full bg-black/80'>
             <ExperiencedSection/>
             </div>

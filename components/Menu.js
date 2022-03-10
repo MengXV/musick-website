@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 import { navLinks } from './data';
 
 
+
 export default function Menu() {
 
     const [isOpen, setOpen] = useState(false);
@@ -46,11 +47,11 @@ export default function Menu() {
                     {(ref) => (
                         <div className='md:hidden' id='mobile-menu'>
                             <div ref={ref}
-                                className='bg-black font-semibold text-lg pt-3 pb-3 space-y-2  absolute w-screen -right-4 -bottom-[132px] flex flex-col justify-center items-center '
+                                className='bg-black font-semibold text-lg pt-3 pb-3 space-y-2  absolute w-screen -right-4 -bottom-[96px] flex flex-col justify-center items-center '
                             > 
                             {navLinks.map((link, index) => {
                                 return (
-                                    <ul key={index}  className="cursor-pointer hover:text-pink duration-200 ease-out">
+                                    <ul key={index} className="cursor-pointer hover:text-pink duration-200 ease-out">
                                         <Link href={link.path}>
                                             <li >{link.name}</li>
                                             </Link>

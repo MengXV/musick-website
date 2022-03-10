@@ -15,8 +15,8 @@ export default function Footer() {
                 <div className='my-10 flex items-center justify-center'>
                     <p data-aos="fade-down"
                         data-aos-duration='1500'
-                        className='text-white font-mont text-center text-xs antialiased md:text-base lg:text-lg md:w-[600px] lg:w-[700px] xl:w-[800px]'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"</p>
+                        className='text-white font-mont text-center text-xs antialiased md:text-base lg:text-lg md:w-[600px] lg:w-[700px] xl:w-[800px]'>
+                            "Make music a part of your life, and you will have a beautiful day for the rest of your life"</p>
                 </div>
 
                 <div className='flex justify-center items-center gap-x-6 text-pink text-xs md:text-md 2xl:text-lg md:gap-x-10 font-semibold font-mont'>
