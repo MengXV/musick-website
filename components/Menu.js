@@ -50,9 +50,9 @@ export default function Menu() {
                             > 
                             {navLinks.map((link, index) => {
                                 return (
-                                    <ul className="cursor-pointer hover:text-pink duration-200 ease-out">
+                                    <ul key={index}  className="cursor-pointer hover:text-pink duration-200 ease-out">
                                         <Link href={link.path}>
-                                            <li key={index} >{link.name}</li>
+                                            <li >{link.name}</li>
                                             </Link>
                                     </ul>
                                 )
