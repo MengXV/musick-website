@@ -14,9 +14,9 @@ export default function Navbar() {
         <div className='hidden md:flex font-mont p-2  text-xs items-center space-x-8 xl:text-xl font-semibold'>
           {navLinks.map((link, index) => {
             return (
-              <ul className='container mx-auto hover:text-pink ease-out duration-100 cursor-pointer'>
-                <Link href={link.path}>
-                  <li key={index} >{link.name}</li>
+              <ul key={index} className='container mx-auto hover:text-pink ease-out duration-100 cursor-pointer'>
+                <Link href={link.path} >
+                  <li>{link.name}</li>
                 </Link>
               </ul>
             );
