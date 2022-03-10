@@ -1,0 +1,223 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    scroll-behavior: smooth;
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+
+#navbar-section{
+  animation: navbar-section 0.9s ease-out;
+  
+}
+
+@keyframes navbar-section {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0px)
+  }
+}
+
+#playlist-img {
+  animation: playlist-img 1.5s ease-in;
+  
+
+}
+
+@keyframes playlist-img{
+  from{
+    transform: translateX(-500px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+#listen-text{
+  animation: listen-text ease-out 1.5s; 
+}
+
+@keyframes listen-text{
+  from{
+    transform: translateX(500px);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0px);
+    opacity: 100;
+
+  }
+}
+
+#music-text{
+  animation: music-text ease-out 1.5s;
+  animation-delay: 0.2s;
+  animation-fill-mode: both;
+}
+
+@keyframes music-text{
+  from{
+    transform: translateX(500px);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0px);
+    opacity: 100;
+
+  }
+}
+
+#until-text{
+  animation: until-text ease-out 1.5s;
+  animation-delay: 0.4s;
+  animation-fill-mode: both;
+
+}
+
+@keyframes until-text{
+  from{
+    transform: translateX(500px);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0px);
+    opacity: 100;
+
+  }
+}
+
+#sick-text{
+  animation: sick-text ease-out 1.5s;
+  animation-delay: 0.6s;
+  animation-fill-mode: both;
+
+}
+
+@keyframes sick-text{
+  from{
+    transform: translateX(500px);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0px);
+    opacity: 100;
+  }
+}
+
+#button-music{
+  animation: button-music 2s ease-out;
+}
+
+@keyframes button-music{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+#contact-text{
+  animation: contact-text 2s ease-out;
+}
+
+@keyframes contact-text{
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0px)
+  }
+}
+
+#talk-text{
+  animation: talk-text 2s ease-out;
+}
+
+@keyframes talk-text{
+  from {
+    transform: translateX(-400px);
+  }
+  to {
+    transform: translateX(0px)
+  }
+}
+
+#name-text{
+  animation: name-text 2s ease-out;
+}
+
+@keyframes name-text{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+#email-text{
+  animation: email-text 2s ease-out;
+  animation-delay: 0.2s;
+  animation-fill-mode: both;
+
+}
+
+@keyframes email-text{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+#area-text{
+  animation: area-text 2s ease-out;
+  animation-fill-mode: both;
+  animation-delay: 0.4s;
+
+}
+
+@keyframes area-text{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+#submit-button{
+  animation: submit-button 2s ease-out;
+  animation-delay: 0.6s;
+  animation-fill-mode: both;
+}
+
+@keyframes submit-button {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
